@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">NotificationApp</string>
+    <string name="enter_phone_number">Enter Phone Number</string>
+    <string name="send_sms">Send SMS</string>
+    <string name="call">Call</string>
+    <string name="recieve_sms">Recieve SMS</string>
+    <string name="add_to_do">Add To-Do</string>
+    <string name="select_deadline">Select deadline</string>
+    <string name="enter_to_do_title">Enter to-do title</string>
+</resources>

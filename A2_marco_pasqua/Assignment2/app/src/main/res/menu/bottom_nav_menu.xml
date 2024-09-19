@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="@string/welcome"
+        android:icon="@drawable/baseline_home_24"
+        android:id="@+id/welcome"/>
+    <item
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="@string/explore"
+        android:icon="@drawable/baseline_person_24"
+        android:id="@+id/hello"/>
+    <item
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="@string/registration_form"
+        android:icon="@drawable/baseline_app_registration_24"
+        android:id="@+id/registration"/>
+    <item
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="@string/feedback"
+        android:icon="@drawable/baseline_chat_bubble_outline_24"
+        android:id="@+id/feedback"/>
+</menu>

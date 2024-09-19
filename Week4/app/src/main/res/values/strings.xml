@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Week4</string>
+    <string name="red">Red</string>
+    <string name="blue">Blue</string>
+    <string name="green">Green</string>
+    <string name="submit">Submit</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="name">Name</string>
+    <string name="guest">Guest</string>
+    <string name="user">User</string>
+    <string name="admin">Admin</string>
+</resources>

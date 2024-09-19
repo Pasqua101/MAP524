@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddMovieActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/movie_title"
+        tools:layout_editor_absoluteX="168dp"
+        tools:layout_editor_absoluteY="346dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="30dp"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/avengers"
+        android:padding="15dp"
+        android:inputType="text"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/year_of_release"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:id="@+id/year"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/_2023"
+        android:inputType="number"
+        android:padding="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/imdb_id"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:id="@+id/imdbId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/tt0095327"
+        android:padding="15dp"
+        android:inputType="text"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/type_of_movie_genre"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:id="@+id/type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/animation_action"
+        android:padding="15dp"
+        android:inputType="text"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/poster"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:textSize="18sp"/>
+    <EditText
+        android:id="@+id/poster"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/https_www_example_com_image_jpg"
+        android:padding="15dp"
+        android:inputType="text"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:gravity="start|bottom"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/cancelButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cancel"
+            android:layout_marginTop="15dp"/>
+
+        <Space
+            android:layout_width="180dp"
+            android:layout_height="match_parent"/>
+
+        <Button
+            android:id="@+id/submitButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_movie"
+            android:layout_marginTop="15dp"/>
+    </LinearLayout>
+
+</LinearLayout>

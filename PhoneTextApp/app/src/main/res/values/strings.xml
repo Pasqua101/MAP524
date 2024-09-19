@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">PhoneTextApp</string>
+    <string name="call_number">Call Number</string>
+    <string name="text_phone_number">Text Phone Number</string>
+</resources>

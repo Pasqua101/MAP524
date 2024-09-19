@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:gravity="center_horizontal"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="39dp"
+            android:gravity="center"
+            android:text="@string/app_name"
+            android:textSize="18sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:clickable="false"
+            android:cursorVisible="false"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:textCursorDrawable="@null"
+            android:textIsSelectable="false"
+            android:textSize="50sp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+        <!-- Buttons aligned to the bottom -->
+        <!-- First row-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:id="@+id/clearButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="8dp"
+
+                android:backgroundTint="@android:color/holo_red_dark"
+                android:text="@string/clear"
+
+                android:textColor="@color/design_default_color_background" />
+            <Button
+                android:id="@+id/equalsButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:backgroundTint="@android:color/holo_green_dark"
+                android:text="@string/equals"
+                android:textColor="@color/design_default_color_background" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="390dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <!-- Second Row  -->
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="8dp"
+                app:backgroundTint="@null"
+                android:background="@drawable/circle_number_buttons"
+                android:padding="8dp"
+                android:text="@string/button7"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="8dp"
+                app:backgroundTint="@null"
+                android:background="@drawable/circle_number_buttons"
+                android:padding="8dp"
+                android:text="@string/button8"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="8dp"
+                app:backgroundTint="@null"
+                android:background="@drawable/circle_number_buttons"
+                android:padding="8dp"
+                android:text="@string/button9"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/additionButton"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/circle_operator_buttons"
+                android:text="@string/addition"
+                android:textColor="@color/white"
+                app:backgroundTint="@null" />
+        </LinearLayout>
+        <!--    Thrid Row-->
+        <LinearLayout
+            android:layout_width="390dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="8dp"
+                app:backgroundTint="@null"
+                android:background="@drawable/circle_number_buttons"
+                android:padding="8dp"
+                android:text="@string/button4"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="8dp"
+                app:backgroundTint="@null"
+                android:background="@drawable/circle_number_buttons"
+                android:padding="8dp"
+                android:text="@string/button5"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="8dp"
+                app:backgroundTint="@null"
+                android:background="@drawable/circle_number_buttons"
+                android:padding="8dp"
+                android:text="@string/button6"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/subtractionButton"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/circle_operator_buttons"
+                android:text="@string/subtraction"
+                android:textColor="@color/white"
+                app:backgroundTint="@null" />
+
+        </LinearLayout>
+
+        <!--    Fourth row-->
+        <LinearLayout
+            android:layout_width="388dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="8dp"
+                app:backgroundTint="@null"
+                android:background="@drawable/circle_number_buttons"
+                android:padding="8dp"
+                android:text="@string/button1"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="8dp"
+                app:backgroundTint="@null"
+                android:background="@drawable/circle_number_buttons"
+                android:padding="8dp"
+                android:text="@string/button2"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="8dp"
+                app:backgroundTint="@null"
+                android:background="@drawable/circle_number_buttons"
+                android:padding="8dp"
+                android:text="@string/button3"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/muliplicationButton"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/circle_operator_buttons"
+                android:text="@string/multiplication"
+                android:textColor="@color/white"
+                app:backgroundTint="@null" />
+        </LinearLayout>
+
+        <!--    Fifth Row-->
+        <LinearLayout
+            android:layout_width="388dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/decimalButton"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="8dp"
+                app:backgroundTint="@null"
+                android:background="@drawable/circle_number_buttons"
+                android:padding="8dp"
+                android:text="@string/decimal"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/button0"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="8dp"
+                app:backgroundTint="@null"
+                android:background="@drawable/circle_number_buttons"
+                android:padding="8dp"
+                android:text="@string/button0"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/backSpaceButton"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/circle_number_buttons"
+                app:backgroundTint="@null"
+                android:backgroundTint="@android:color/holo_red_dark"
+                android:padding="8dp"
+                android:text="@string/backspace"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/divisionButton"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/circle_operator_buttons"
+                app:backgroundTint="@null"
+                android:padding="8dp"
+                android:text="@string/division"
+                android:textColor="@color/design_default_color_background" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

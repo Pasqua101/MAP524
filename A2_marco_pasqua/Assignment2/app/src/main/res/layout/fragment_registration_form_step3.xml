@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="0dp"
+        android:layout_height="0dp">
+    </FrameLayout>
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/do_you_agree_to_the_terms_and_conditions"
+        android:layout_gravity="start"/>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/termsAndConditionsSelection">
+
+        <RadioButton
+            android:id="@+id/radioButtonYes"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/yes"
+            android:padding="15dp"/>
+        <RadioButton
+            android:id="@+id/radioButtonNo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/no"
+            android:padding="15dp"/>
+
+    </RadioGroup>
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/do_you_agree_to_having_your_photo_taken_and_used_for_social_media"
+        android:layout_gravity="start"
+        android:layout_marginTop="16dp"/>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/photoTakenSelection">
+
+        <RadioButton
+            android:id="@+id/radioButtonYesPhoto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/yes"
+            android:padding="15dp"/>
+
+        <RadioButton
+            android:id="@+id/radioButtonNoPhoto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/no"
+            android:padding="15dp"/>
+    </RadioGroup>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="390dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/goBackButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start|bottom"
+            android:layout_marginTop="0dp"
+            android:text="@string/go_back" />
+
+        <Button
+            android:id="@+id/nextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="190dp"
+            android:layout_gravity="end|bottom"
+            android:text="@string/next" />
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:padding="20dp"/>
+
+
+</LinearLayout>

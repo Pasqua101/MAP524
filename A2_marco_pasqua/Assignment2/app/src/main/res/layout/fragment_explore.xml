@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ExploreFragment"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/explore"
+        android:textAlignment="center"
+        android:padding="35dp"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/here_s_what_s_on_the_schedule_for_the_hackathon"
+        android:layout_marginTop="100dp"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/day_1_nzoom_meeting_discussing_the_topic"
+        android:layout_marginTop="130dp"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/day_2_nhackathon_begins_the_event_will_be_held_at_seneca_s_newnham_which_is_located_at_750_finch_ave_e_toronto_on_m2j_2x5"
+
+        android:layout_marginTop="190dp"
+        android:textSize="18sp"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="220dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/outside_of_seneca_newnham"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/outside_of_the_one_of_the_newnham_building_as_a_reference_for_participants"
+        android:layout_marginTop="530dp"
+        android:textSize="12sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Day 3:\n Presentations due at 2pm, and you and your group will present your idea to the judges. Whoever has the higehest score wins!"
+        android:layout_marginTop="560dp"
+        android:textSize="18sp"/>
+
+</FrameLayout>

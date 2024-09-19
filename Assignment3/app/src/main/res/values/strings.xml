@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Assignment3</string>
+    <string name="movie_title">Movie Title</string>
+    <string name="avengers">Avengers</string>
+    <string name="year_of_release">Year of Release</string>
+    <string name="_2023">2023</string>
+    <string name="imdb_id">IMDb ID</string>
+    <string name="animation_action">Animation/Action</string>
+    <string name="poster">Poster</string>
+    <string name="add_movie">Add Movie</string>
+    <string name="type_of_movie_genre">Type of Movie (Genre)</string>
+    <string name="title">Title</string>
+    <string name="year_of_release_display">Year of Release:</string>
+    <string name="imdb_id_display">IMDb ID:</string>
+    <string name="type_of_movie">Type of Movie:</string>
+    <string name="title_display">Title:</string>
+    <string name="tt0095327">tt0095327</string>
+    <string name="https_www_example_com_image_jpg">https://www.example.com/image.jpg</string>
+    <string name="cancel">Cancel</string>
+    <string name="go_back">Go Back</string>
+</resources>

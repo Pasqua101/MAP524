@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">FinalExam</string>
+
+    <string-array name="fruits_array">
+        <item>Apple - $5.99</item>
+        <item>Watermelon - $10.99</item>
+        <item>Orange - $3.99</item>
+        <item>Grapes - $5.99</item>
+        <item>Banana - $8.99</item>
+    </string-array>
+</resources>

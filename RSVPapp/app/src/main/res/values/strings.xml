@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">RSVPapp</string>
+    <string name="please_enter_your_name">Please enter your name</string>
+    <string name="attending">Attending</string>
+    <string name="maybe">Maybe</string>
+    <string name="not_attending">Not Attending</string>
+    <string name="submit">Submit</string>
+</resources>
